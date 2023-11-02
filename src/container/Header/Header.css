@@ -1,0 +1,15 @@
+.app__header{
+    background-color: var(--color-brown);
+}
+
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-beige);
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 80px;
+}
+
+.app__header-img{
+    width: 80%;
+}

@@ -1,0 +1,19 @@
+.app__details{
+    flex-direction: column;
+    background: var(--color-black);
+}
+
+.app__details-title{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.app__details-specifications{
+    width: 100%;
+
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
