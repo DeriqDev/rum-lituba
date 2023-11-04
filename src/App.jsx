@@ -9,6 +9,7 @@ import './App.css';
 
 import Footer from "./components/Footer/Footer";
 import Details from "./container/Details/Details";
+import Intro from "./container/Intro/Intro.jsx";
 
 
 
@@ -20,7 +21,7 @@ function App() {
       <Header />
       <AboutUs />
       <Details />
-      <MenuItem />
+      <Intro />
     <Footer />
       
     </div>

@@ -4,7 +4,7 @@ const rums = [
     {
         brand: 'Lituba',
         degree: '46%',
-        volume: '750mL',
+        volume_degree: '750mL | 46%',
         price: '$49'
     }
 ]

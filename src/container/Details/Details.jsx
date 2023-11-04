@@ -10,7 +10,7 @@ const Details = () => {
     return(
         <div className="app__details flex__center section__padding" id="menu">
             <div className="app__details-title">
-                <SubHeading title=""/>
+                <SubHeading title="Special Bottle"/>
                 <h1 className="headtext__cormorant"></h1>
             </div>
 
@@ -20,13 +20,13 @@ const Details = () => {
                     <div className="app__details_specification_items">
                         {data.rums.map((rum, index) => (
                            
-                            <MenuItem key={rum.brand + index} title={rum.price} tags={rum.degree}/>
+                            <MenuItem key={rum.brand + index} brand={rum.brand} price={rum.price} volume_degree={rum.volume_degree}/>
                         ))}
                     </div>
                 </div>
 
                 <div className="app__details-specification_img">
-                    <img src={images.mockup} alt="description"/>
+                    <img src={images.mockup1} alt="description"/>
                 </div>
 
                 {/* <div className="app__details-specification_rum flex__center">
