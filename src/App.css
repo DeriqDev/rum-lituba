@@ -9,7 +9,8 @@
   }
   
   .app__bg {
-    background: url('./assets/bg.png');
+    /* background: url('./assets/bg.png'); */
+    background: var(--color-black);
     background-position: center;
     background-size: cover;
     background-repeat: repeat;
@@ -53,7 +54,7 @@
   }
   
   .custom__button {
-    /* background-color: var(--color-crimson); */
+    background-color: var(--color-tan);
       color: var(--color-black);
       font-family: var(--font-base);
       font-weight: 700;
@@ -86,6 +87,20 @@
     text-transform: capitalize;
     line-height: 28px;
     font-size: 16px;
+  }
+
+  .p__recit{
+    font-family: var(--font-base);
+    color: whitesmoke;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 28px;
+    font-size: 16px;
+    background-color: antiquewhite;
+    opacity: 60%;
+    border-radius: 2% 2%;
+    padding: 1rem 1rem;
   }
   
   .headtext__cormorant {

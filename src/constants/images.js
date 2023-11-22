@@ -15,6 +15,8 @@ import mockup from '../assets/mockup.jpeg';
 import mockup1 from '../assets/mockup1.png';
 import litu from '../assets/LITUBAlogo.png';
 import bg from '../assets/bg.png';
+import cave1 from '../assets/Cave2.png';
+import cave3 from '../assets/Cave3.jpeg';
 
 export default {
     lituba,
@@ -33,5 +35,7 @@ export default {
     mockup,
     mockup1,
     litu,
-    bg
+    bg,
+    cave1,
+    cave3
 };

@@ -22,13 +22,15 @@ const Footer = () =>{
                 </div>
                 <div className='app__footer-links_logo'>
                     <img src={images.litu} alt='footer_logo'/>
-                    <p className='p__opensans'></p>
+                    <p className='p__opensans'>&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
                     <div className='app__footer-links_icons'>
                         <FiFacebook />
                         <FiTwitter />
                         <FiInstagram />
                     </div>
                 </div>
+
+                
             </div>
             <div className='footer__copyright'>
                 <p className='p__opensans'>2023 Lituba. All Right Reserverd</p>
